@@ -1,0 +1,32 @@
+---
+title: "SEMANA_10"
+author: "JULIET DEL ROSARIO ACASIETE ONCEBAY"
+format: html
+editor: visual
+---
+
+# SEMANA 10
+
+```{r}
+# IMPORTAMOS DATA
+library(readr)
+data<- read_csv("C:/Users/xntoa/Downloads/almac_sangre.csv")
+```
+
+```{r}
+#MEDIDAS DE TENDENCIA CENTRAL
+ 
+ #Media Aritmetica 
+ mean(data$Edad)
+```
+
+```{r}
+ #Mediana
+ median(data$Edad)
+```
+
+```{r}
+ #Moda
+ mode_edad<-names(sort(table(data$Edad), decreasing = TRUE))
+ 
+```
