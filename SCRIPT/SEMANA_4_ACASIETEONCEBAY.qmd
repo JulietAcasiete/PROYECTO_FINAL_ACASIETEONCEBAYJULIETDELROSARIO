@@ -1,0 +1,20 @@
+---
+title: "SEMANA_4"
+author: "JULIET DEL ROSARIO ACASIETE ONCEBAY"
+format: html
+editor: visual
+---
+
+# Semana 4
+
+## Descargar archivo csv por el repositorio de github
+
+[1.- INGRESAMOS AL REPOSITORIO DE GITHUB]{.underline}
+
+[2.- INGRESAMOS A LA CARPETA DATA]{.underline}
+
+[3.- UBICAMOS EL ARCHIVO CSV]{.underline}
+
+[4.- AQUÍ YA LO TENEMOS UBICADO Y LO DESCARGAMOS]{.underline}
+
+[5.- FINALMENTE LO TENEMOS DESCARGADO]{.underline}
