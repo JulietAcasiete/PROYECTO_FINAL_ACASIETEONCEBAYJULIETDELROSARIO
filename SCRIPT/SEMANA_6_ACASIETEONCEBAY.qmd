@@ -1,0 +1,27 @@
+---
+title: "SEMANA_6"
+author: "JULIET DEL ROSARIO ACASIETE ONCEBAY"
+format: html
+editor: visual
+---
+
+## SEMANA 6
+
+```{r}
+
+# IMPORTAMOS DATA
+library(readr)
+data<- read_csv("C:/Users/xntoa/Downloads/s02_treat_artritis.csv")
+
+
+```
+
+You can add options to executable code like this
+
+```{r}
+
+#LIMPIAMOS DATA QUE CONTENGA UNA COLUMNA CON N/A
+
+data_limpia<-data[!is.na(data$CDAI), ]
+
+```
