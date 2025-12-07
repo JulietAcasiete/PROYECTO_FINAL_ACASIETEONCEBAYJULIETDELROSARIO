@@ -1,0 +1,54 @@
+---
+title: "SEMANA_12"
+author: "JULIET DEL ROSARIO ACASIETE ONCEBAY"
+format: html
+editor: visual
+---
+
+## Semana 12
+
+```{r}
+# IMPORTAMOS DATA
+library(readr)
+data<- read_csv("~/almac_sangre.csv")
+
+
+```
+
+```{r}
+#VER LAS 6 PRIMERAS FILAS DE LA DATA
+head(data$Edad)
+```
+
+```{r}
+#MEDIDAS DE DISPERSION
+
+ #Varianza
+ var(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#Desviacion estandar
+ sd(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#RANGO
+ range(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#RANGO INTERCUARTILICO
+ IQR(data$Edad,na.rm = TRUE)
+```
+
+```{r}
+#MEDIDAS DE POSICION
+ quantile(data$Edad,probs =c(0.25,0.50,0.75,0.90),na.rm = TRUE)
+ summary(data$Edad)
+```
+
+```{r}
+ #RESUMEN DE TODAS LAS VARIABLES
+ summary(data)
+```
