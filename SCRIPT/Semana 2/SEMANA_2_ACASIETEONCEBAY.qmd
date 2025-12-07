@@ -1,0 +1,22 @@
+---
+title: "SEMANA_2"
+author: "JULIET DEL ROSARIO ACASIETE ONCEBAY"
+format: html
+editor: visual
+---
+
+# SEMANA_2
+
+## CREAR UN PROYECYO
+
+1.- En la parte superior derecha : Seleccionar “New Project”
+
+2.- Seleccionamos “New Directory”
+
+3.- Seleccionamos “Nuevo Proyecto / New Project”
+
+4.- Le colocamos un nombre y ubicamos el proyecto
+
+5.- Seleccionamos donde guardar el Proyecto
+
+6.- Visualizamos el proyecto
