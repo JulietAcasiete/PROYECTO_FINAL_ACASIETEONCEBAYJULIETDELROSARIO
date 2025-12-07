@@ -1,0 +1,32 @@
+---
+title: "SEMANA_8"
+author: "JULIET DEL ROSARIO ACASIETE ONCEBAY"
+format: html
+editor: visual
+---
+
+```{r}
+
+# INSTALAMOS EL PAQUETE FDTH
+install.packages("fdth")
+library(fdth)
+
+```
+
+You can add options to executable code like this
+
+```{r}
+
+#IMPORTAMOS DATA
+library(readr)
+data<- read_csv("~/almac_sangre.csv")
+
+```
+
+```{r}
+#CREAMOS EL HISTOGRAMA
+
+hist(data$Edad)
+hist(data$Edad, col = "magenta")
+
+```
