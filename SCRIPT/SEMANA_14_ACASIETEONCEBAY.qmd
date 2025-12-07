@@ -1,0 +1,49 @@
+---
+title: "SEMANA 14"
+author: "JULIET DEL ROSARIO ACASIETE ONCEBAY"
+format: html
+editor: visual
+---
+
+## SEMANA 14
+
+```{r}
+#IMPORTAMOS DATA
+
+library(readr)
+data<- read_csv("C:/Users/xntoa/Downloads/s13_hemodialisis.csv")
+```
+
+```{r}
+#ANALISIS DE REGRESION
+ 
+ #REGRESION MULTIVARIADA
+ set.seed(123)
+ n<- 120
+ IMC <- rnorm(n, 27, 4)
+ Edad <- rnorm (n, 45, 10)
+ #Calculamos horas por semana
+ Actividad <- rnorm (n, 3 , 1)
+```
+
+```{r}
+#ANALISIS UNIVARIADO
+ set.seed(123)
+ Edad <- sample(20:70, 30, replace = TRUE)
+ Diabetic <-70 + 0.9*Edad + rnorm(30, 0, 8)
+ datos <- data.frame(Edad, Diabetic)
+```
+
+```{r}
+#ANALISIS MULTIVARIADO
+#CREAR DATASET
+set.seed(123)
+n <-80
+IMC<- rnorm(n, 27, 4)
+Edad<- rnorm(n, 45, 10)
+Diabetic <- rnorm(n, 60, 15)
+Diabetic <- 95 + 2.1*IMC + 0.85*Edad + 1.45*n + rnorm (n, 0.15)
+datos <- data.frame(IMC, Edad, n)
+head(datos)
+ 
+```
